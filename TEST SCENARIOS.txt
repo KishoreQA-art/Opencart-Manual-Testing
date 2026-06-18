@@ -1,0 +1,169 @@
+# OpenCart Test Scenarios
+
+## Module 1: Home Page
+
+| TS ID  | Test Scenario                            |
+| ------ | ---------------------------------------- |
+| TS_001 | Verify homepage loads successfully       |
+| TS_002 | Verify website logo is displayed         |
+| TS_003 | Verify navigation menu links are working |
+| TS_004 | Verify featured products are displayed   |
+| TS_005 | Verify search box is visible             |
+| TS_006 | Verify category menu is displayed        |
+| TS_007 | Verify promotional banners are displayed |
+| TS_008 | Verify footer links are working          |
+| TS_009 | Verify currency selection functionality  |
+| TS_010 | Verify language selection functionality  |
+
+---
+
+## Module 2: User Registration
+
+| TS ID  | Test Scenario                               |
+| ------ | ------------------------------------------- |
+| TS_011 | Verify registration with valid details      |
+| TS_012 | Verify mandatory field validation           |
+| TS_013 | Verify registration with invalid email      |
+| TS_014 | Verify registration with existing email     |
+| TS_015 | Verify password confirmation validation     |
+| TS_016 | Verify password strength requirements       |
+| TS_017 | Verify terms and conditions validation      |
+| TS_018 | Verify successful registration message      |
+| TS_019 | Verify registration with special characters |
+| TS_020 | Verify registration with blank fields       |
+
+---
+
+## Module 3: Login & Logout
+
+| TS ID  | Test Scenario                          |
+| ------ | -------------------------------------- |
+| TS_021 | Verify login with valid credentials    |
+| TS_022 | Verify login with invalid credentials  |
+| TS_023 | Verify login with blank username       |
+| TS_024 | Verify login with blank password       |
+| TS_025 | Verify login with blank credentials    |
+| TS_026 | Verify password masking                |
+| TS_027 | Verify forgot password functionality   |
+| TS_028 | Verify successful logout               |
+| TS_029 | Verify session expiration behavior     |
+| TS_030 | Verify access restriction after logout |
+
+---
+
+## Module 4: Product Search
+
+| TS ID  | Test Scenario                         |
+| ------ | ------------------------------------- |
+| TS_031 | Verify search with exact product name |
+| TS_032 | Verify search with partial keyword    |
+| TS_033 | Verify search using category filter   |
+| TS_034 | Verify search for unavailable product |
+| TS_035 | Verify no-results message             |
+| TS_036 | Verify search with special characters |
+| TS_037 | Verify search with numeric values     |
+| TS_038 | Verify search result accuracy         |
+| TS_039 | Verify search results sorting         |
+| TS_040 | Verify search field accepts long text |
+
+---
+
+## Module 5: Product Details Page
+
+| TS ID  | Test Scenario                         |
+| ------ | ------------------------------------- |
+| TS_041 | Verify product name display           |
+| TS_042 | Verify product description display    |
+| TS_043 | Verify product price display          |
+| TS_044 | Verify product image display          |
+| TS_045 | Verify image zoom functionality       |
+| TS_046 | Verify stock availability information |
+| TS_047 | Verify quantity selection             |
+| TS_048 | Verify Add to Cart functionality      |
+| TS_049 | Verify Add to Wishlist functionality  |
+| TS_050 | Verify product review section         |
+
+---
+
+## Module 6: Shopping Cart
+
+| TS ID  | Test Scenario                       |
+| ------ | ----------------------------------- |
+| TS_051 | Verify adding a product to cart     |
+| TS_052 | Verify adding multiple products     |
+| TS_053 | Verify updating quantity            |
+| TS_054 | Verify removing product from cart   |
+| TS_055 | Verify cart total calculation       |
+| TS_056 | Verify tax calculation              |
+| TS_057 | Verify shipping estimate            |
+| TS_058 | Verify cart persistence after login |
+| TS_059 | Verify empty cart behavior          |
+| TS_060 | Verify cart page navigation         |
+
+---
+
+## Module 7: Wishlist
+
+| TS ID  | Test Scenario                         |
+| ------ | ------------------------------------- |
+| TS_061 | Verify adding product to wishlist     |
+| TS_062 | Verify removing product from wishlist |
+| TS_063 | Verify login requirement for wishlist |
+| TS_064 | Verify wishlist item count update     |
+| TS_065 | Verify duplicate item handling        |
+| TS_066 | Verify moving item to cart            |
+| TS_067 | Verify wishlist persistence           |
+| TS_068 | Verify wishlist page navigation       |
+| TS_069 | Verify product details from wishlist  |
+| TS_070 | Verify wishlist after logout/login    |
+
+---
+
+## Module 8: Checkout Process
+
+| TS ID  | Test Scenario                      |
+| ------ | ---------------------------------- |
+| TS_071 | Verify checkout as registered user |
+| TS_072 | Verify guest checkout              |
+| TS_073 | Verify billing address entry       |
+| TS_074 | Verify shipping address entry      |
+| TS_075 | Verify shipping method selection   |
+| TS_076 | Verify payment method selection    |
+| TS_077 | Verify order summary details       |
+| TS_078 | Verify successful order placement  |
+| TS_079 | Verify order confirmation page     |
+| TS_080 | Verify order ID generation         |
+
+---
+
+## Module 9: My Account
+
+| TS ID  | Test Scenario                        |
+| ------ | ------------------------------------ |
+| TS_081 | Verify account information display   |
+| TS_082 | Verify updating account details      |
+| TS_083 | Verify password change functionality |
+| TS_084 | Verify adding new address            |
+| TS_085 | Verify editing address               |
+| TS_086 | Verify deleting address              |
+| TS_087 | Verify order history display         |
+| TS_088 | Verify order details view            |
+| TS_089 | Verify saved changes after update    |
+| TS_090 | Verify account navigation links      |
+
+---
+
+## Module 10: Contact Us & Compatibility Testing
+
+| TS ID  | Test Scenario                           |
+| ------ | --------------------------------------- |
+| TS_091 | Verify Contact Us form submission       |
+| TS_092 | Verify mandatory field validation       |
+| TS_093 | Verify invalid email validation         |
+| TS_094 | Verify success message display          |
+| TS_095 | Verify reset/clear functionality        |
+| TS_096 | Verify website functionality in Chrome  |
+| TS_097 | Verify website functionality in Firefox |
+| TS_098 | Verify website functionality in Edge    |
+| TS_099 | Verify responsive layout on mobile      |
+| TS_100 | Verify responsive layout on tablet      |

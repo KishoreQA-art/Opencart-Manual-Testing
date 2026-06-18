@@ -1,0 +1,31 @@
+🐞 OPEN CART – BUG REPORT
+
+The following defects were identified during the testing of the OpenCart application across various modules such as Login, Registration, Search, Product Details, Shopping Cart, Wishlist, Checkout, My Account, Contact Us, and Compatibility testing. Each issue was documented with proper severity, priority, and status marked as Completed after reporting.
+
+BUG_001 (Login Module, TC_022): The system allows users to log in even with invalid credentials. When wrong username and password are entered, instead of showing an error message, the user is successfully logged in. This is a High severity issue with P1 priority and is marked as Completed.
+
+BUG_002 (Registration Module, TC_014): The system allows registration using an already existing email address. Duplicate email validation is not working, leading to duplicate account creation. This is a Critical severity defect with P1 priority and marked as Completed.
+
+BUG_003 (Registration Module, TC_015): Password mismatch validation is not working. The system accepts different password and confirm password values and allows successful registration. This is a High severity issue and marked as Completed.
+
+BUG_004 (Search Module, TC_034): When an invalid product is searched, the system does not display a proper “No Results Found” message and instead shows a blank screen. This is a Medium severity UI issue and marked as Completed.
+
+BUG_005 (Product Details Module, TC_045): The image zoom functionality on the product details page is not working as expected. Hovering over the product image does not trigger zoom. This is a Medium severity issue.
+
+BUG_006 (Shopping Cart Module, TC_054): The remove item functionality in the cart is not working. Even after clicking remove, the product remains in the cart. This is a High severity functional defect.
+
+BUG_007 (Shopping Cart Module, TC_055): The cart total calculation is incorrect. The total amount does not match the sum of individual product prices. This is a Critical severity issue affecting billing accuracy.
+
+BUG_008 (Wishlist Module, TC_065): The system allows duplicate products to be added to the wishlist. There is no validation to prevent duplicate entries. This is a Medium severity issue.
+
+BUG_009 (Checkout Module, TC_078): After completing all checkout steps, the order is not placed successfully. The page refreshes without generating an order confirmation. This is a Critical severity blocking issue.
+
+BUG_010 (Contact Us Module, TC_091): The contact form allows submission without entering any data. Proper validation messages are not displayed. This is a High severity defect.
+
+BUG_011 (My Account Module, TC_082): Profile update changes are not saved. Even after editing and saving, old data remains unchanged. This is a High severity issue.
+
+BUG_012 (Compatibility Testing, TC_099): The website layout is broken on mobile devices. Elements are misaligned and not responsive. This is a High severity UI compatibility issue.
+
+📌 FINAL SUMMARY
+
+All identified defects were documented with proper severity and priority classification. The bugs cover functional, UI, validation, and compatibility issues across all major modules of the application. All issues are marked as Completed for reporting purposes.

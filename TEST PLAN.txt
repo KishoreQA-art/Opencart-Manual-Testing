@@ -1,0 +1,82 @@
+# Test Plan – OpenCart E-Commerce Website
+
+## Project Details
+
+**Project Name:** OpenCart E-Commerce Website
+**Tester:** Kishorekumar M
+**Testing Type:** Manual Testing
+**Version:** 1.0
+**Date:** 18-Jun-2026
+
+---
+
+## 1. Introduction
+
+This document outlines the manual testing activities performed on the OpenCart e-commerce website. The goal of testing was to verify that the key features of the application work as expected and provide a smooth shopping experience for users.
+
+The testing focused on major user journeys such as account creation, login, product search, cart management, wishlist functionality, checkout, and account management. Testing was carried out across different browsers to ensure consistent behavior.
+
+---
+
+## 2. Objective
+
+The main objective of this testing effort was to:
+
+* Verify that users can browse and purchase products without issues.
+* Validate the functionality of core e-commerce features.
+* Identify defects that impact user experience.
+* Ensure proper validation messages are displayed.
+* Confirm that the application behaves consistently across supported browsers.
+
+---
+
+## 3. Scope
+
+The following modules were included in testing:
+
+1. Home Page
+2. User Registration
+3. Login & Logout
+4. Product Search
+5. Product Details
+6. Shopping Cart
+7. Wishlist
+8. Checkout Process
+9. My Account
+10. Contact Us & Compatibility Testing
+
+Areas such as performance testing, security testing, API testing, and database validation were not included in this project.
+
+---
+
+## 4. Test Environment
+
+Testing was performed using:
+
+* Windows 11
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Stable internet connection
+
+---
+
+## 5. Testing Approach
+
+The application was tested manually by executing test scenarios for each module. Positive, negative, and validation test cases were considered to ensure maximum coverage.
+
+Special attention was given to:
+
+* User authentication
+* Product search accuracy
+* Cart calculations
+* Checkout flow
+* Form validations
+* Browser compatibility
+* Responsive behavior
+
+---
+
+## 6. Conclusion
+
+The OpenCart website was tested across 10 functional modules covering the primary user workflows of an e-commerce application. Defects identified during testing were documented and tracked. After execution, the application was found to be stable for the tested functionalities and provided a satisfactory user experience.
